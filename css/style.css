@@ -2,7 +2,7 @@ div {
     font-family: Verdana, Geneva, sans-serif;
 }
 
-.header {
+div.largebanner {
     font-size: 50px;
     font-weight: bold;
 }
