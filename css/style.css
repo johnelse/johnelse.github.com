@@ -6,16 +6,16 @@ div {
     font-family: Verdana, Geneva, sans-serif;
 }
 
-div.smallbanner {
+div#smallbanner {
     background-color: #CCCCCC;
     padding: 5px;
 }
 
-div.content {
+div#content {
     padding: 5px;
 }
 
-div.footer {
+div#footer {
     background-color: #CCCCCC;
     padding: 5px;
 }
