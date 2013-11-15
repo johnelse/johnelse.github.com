@@ -6,11 +6,6 @@ div {
     font-family: Verdana, Geneva, sans-serif;
 }
 
-div.largebanner {
-    font-size: 50px;
-    font-weight: bold;
-}
-
 div.smallbanner {
     background-color: #CCCCCC;
     padding: 5px;
