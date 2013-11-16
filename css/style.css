@@ -1,5 +1,7 @@
 body {
     margin: 0px;
+    padding: 0px;
+    height: 100%;
 }
 
 div {
@@ -9,15 +11,23 @@ div {
 div#header {
     background-color: #CCCCCC;
     padding: 5px;
+    position: fixed;
+    top: 0px;
+    width: 100%
 }
 
 div#content {
-    padding: 5px;
+    height: 100%;
+    padding: 35px 5px 52px 5px;
+    overflow: auto;
 }
 
 div#footer {
     background-color: #CCCCCC;
     padding: 5px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 
 a {
