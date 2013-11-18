@@ -2,4 +2,12 @@
 layout: default
 title: John Else
 ---
-johnelse.github.com
+<p>Posts:</p>
+
+<ul>
+    {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+    {% endfor %}
+</ul>
