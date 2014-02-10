@@ -18,6 +18,7 @@ div#header {
 
 div#content {
     height: 100%;
+    max-width: 640px;
     padding: 35px 5px 5px 5px;
     overflow: auto;
 }
