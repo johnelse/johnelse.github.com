@@ -1,26 +1,14 @@
-body {
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-}
-
-div {
-    font-family: Verdana, Geneva, sans-serif;
+html {
+    overflow-y: scroll
 }
 
 div#header {
+    padding: 0 1rem;
     background-color: #CCCCCC;
-    padding: 5px;
-    position: fixed;
-    top: 0px;
-    width: 100%
 }
 
 div#content {
-    height: 100%;
-    max-width: 640px;
-    padding: 35px 5px 5px 5px;
-    overflow: auto;
+    padding: 2rem 0 2rem;
 }
 
 a {

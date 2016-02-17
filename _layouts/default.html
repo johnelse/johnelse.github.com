@@ -3,20 +3,28 @@
 <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/skeleton.css" type="text/css">
     <link rel="stylesheet" href="{{site.baseurl}}/css/style.css" type="text/css">
 </head>
 <body>
-    <div id="site">
-        <div id="header">
-            <a href="{{ site.baseurl }}/">home</a>
-            -
-            <a href="{{ site.baseurl }}/about/">about</a>
-            -
-            <a href="{{ site.baseurl }}/contact/">contact</a>
+    <div class="container">
+        <div class="row" id="header">
+            <div class="u-full-width">
+                <a href="{{ site.baseurl }}/">home</a>
+                -
+                <a href="{{ site.baseurl }}/about/">about</a>
+                -
+                <a href="{{ site.baseurl }}/contact/">contact</a>
+            </div>
         </div>
+    </div>
 
-        <div id="content">
+    <div class="container">
+        <div class="row" id="content">
+            <div class="u-full-width">
 {{ content }}
+            </div>
         </div>
     </div>
 </body>
