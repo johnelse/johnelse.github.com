@@ -2,5 +2,5 @@ markdown: kramdown
 kramdown:
   input: GFM
 highlighter: rouge
-permalink: /:title:output_ext
+permalink: pretty
 exclude: [vendor]
