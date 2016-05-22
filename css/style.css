@@ -1,14 +1,8 @@
-html {
-    overflow-y: scroll
-}
-
-div#header {
-    padding: 0 1rem;
-    background-color: #CCCCCC;
-}
-
-div#content {
-    padding: 2rem 0 2rem;
+#header-nav {
+    border: 0px;
+    background-color: #cccccc;
+    font-size: 20px;
+    min-height: 30px;
 }
 
 a {
