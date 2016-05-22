@@ -3,4 +3,4 @@ kramdown:
   input: GFM
 highlighter: rouge
 permalink: pretty
-exclude: [vendor]
+exclude: [vendor, README.md, docker-serve.sh, Gemfile*]
